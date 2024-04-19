@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload your NFT</title>
+</head>
+<body align="center">
+    <h2>Upload Your NFT</h2>
+    
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      
+        <input type="text" id="filename" name="filename" placeholder="Filename"><br><br>
+        
+     
+        <input type="text" id="price" name="price" placeholder="Price"><br> <br>
+        
+        <input type="file" id="image" name="image"><br><br>
+        <h3 align="center">Description</h3>
+        <textarea rows="20" cols="40" name="ta"></textarea> <br><br>
+       
+        <input type="submit" value="Upload" name="submit">
+    </form>
+
+    
+</body>
+</html>
